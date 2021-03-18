@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EDEFF3;
+    border-top-style: solid;
+    border-top-color: black;
+    border-bottom-style: solid;
+    border-bottom-color: #2196f3;
+    padding: 1em 0;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-menu > .link {
+    padding: 0 0.5em;
+}
