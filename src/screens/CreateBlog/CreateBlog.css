@@ -1,0 +1,48 @@
+.button {
+    display: flex;
+    align-items: center;
+    height: 2.5em;
+    border-width: thin;
+    border-radius: 0.2em;
+    background-color: transparent;
+}
+
+.primary {
+    margin-right: 0.5em;
+    color: white;
+    border-color: transparent;
+    background-color: #2196f3;
+}
+
+.button.disabled {
+    color: grey;
+    background-color: transparent;
+}
+
+.icon {
+    margin-right: 0.3em;
+    font-size: 1.3em;
+}
+
+.form-header {
+    display: flex; 
+    align-content: center;
+    margin-bottom: 1em;
+}
+
+.form-title {
+    margin: 0
+}
+
+.form-content {
+    display: flex;
+}
+
+.form-container-right {
+    width: 70%;
+}
+
+.form-container-left {
+    width: calc(30% - 2em);
+    margin-left: 2em;
+}
